@@ -102,6 +102,17 @@ COMMIT;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 
 
+Arquivo principal(index) 'Login.php'.
+Utilizado pacote xamp (xampp-windows-x64-7.3.11-0-VC15-installer) Servidor Apache, banco de dados mysql
+Aqruivo com dados exportados em 'sql' dentro da pasta, por falta de tempo não foi possível implementar todas as tabelas apenas a do usuário para fazer login e iniciar a sessão. Os demais dados da 'compra' dos livros apenas são exibidos na tela.
+Local para abrir o sistema após módulo apache e phpmyadmin iniciados: 
+http://localhost/DevRamper/Login.php
+
+Colar o arquivo do projeto depois de instalar o pacote xamp no local: 
+C:\xampp\htdocs
+
+De preferência instalar neste local por causa de problemas de permissões do windows.
+Qualquer dúvida entrar em contato pelo email: andre_flores2009@hotmail.com
 Em breve mais informações.
 
 
