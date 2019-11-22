@@ -1,7 +1,7 @@
 # DevRamper2019
 Desafio DevRamper2019
 
-/* PROBLEMA 
+ PROBLEMA 
         Uma livraria contem 7 livros distintos e possui um esquema de descontos que leva em consideracao se é o mesmo título ou não. O problema consiste em calcular o melhor desconto para o cliente. 
         Preco de um titulo qualquer R$ 42,00
 
@@ -21,12 +21,21 @@ Desafio DevRamper2019
           Resposta R$ 268,80 (80% do total)
           Note que o preco deve ser o menor valor obtido combinando os livros. 2 conjuntos de 4 livros é melhor que 1 de 5 livros e 1 de 3 livros.
 
-          */
+--------------------------------------------------------------------------------------------------------------------------          
           
-          Utilizado pacote xamp (Servidor Apache) Banco de dados (mysql)
-          Projeto com apenas tabela usuario criada, opr falta de tempo não foi completo os cadastros da tabela compras e paneas os dados são exibidos na tela. Para logar no sistema é necessário criar um usuário novo e utilizar login e senha para iniciar a sessão.
+>>>> Arquivo principal(index) 'Login.php'.
+Utilizado pacote xamp (xampp-windows-x64-7.3.11-0-VC15-installer) Servidor Apache, banco de dados mysql
+Arquivo com dados exportados em 'sql' dentro da pasta do projeto, por falta de tempo não foi possível implementar todas as tabelas apenas a tabela usuário para fazer login e iniciar a sessão. Os demais dados da 'compra' dos livros apenas são exibidos na tela. De preferência utilizar navegador Firefox ou opera porque navegador Google Chrome bloqueia algumas funcionalidades '*.css do projeto.
           
-          Nome do banco de dados: DevRamper
+
+Colar o arquivo do projeto depois de instalar o pacote xamp no local: 
+C:\xampp\htdocs
+De preferência instalar neste local por causa de problemas de permissões do windows.
+
+Local para abrir o sistema após módulo apache e phpmyadmin iniciados: 
+http://localhost/DevRamper/Login.php
+          
+          Nome do banco de dados: devramper
           usuario: root
           senha""
           
@@ -102,16 +111,9 @@ COMMIT;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 
 
-Arquivo principal(index) 'Login.php'.
-Utilizado pacote xamp (xampp-windows-x64-7.3.11-0-VC15-installer) Servidor Apache, banco de dados mysql
-Aqruivo com dados exportados em 'sql' dentro da pasta, por falta de tempo não foi possível implementar todas as tabelas apenas a do usuário para fazer login e iniciar a sessão. Os demais dados da 'compra' dos livros apenas são exibidos na tela.
-Local para abrir o sistema após módulo apache e phpmyadmin iniciados: 
-http://localhost/DevRamper/Login.php
 
-Colar o arquivo do projeto depois de instalar o pacote xamp no local: 
-C:\xampp\htdocs
 
-De preferência instalar neste local por causa de problemas de permissões do windows.
+
 Qualquer dúvida entrar em contato pelo email: andre_flores2009@hotmail.com
 Em breve mais informações.
 
