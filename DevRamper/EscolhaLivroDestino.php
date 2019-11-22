@@ -250,6 +250,7 @@ $nome = $_SESSION['nome'];
           /*verificacao livro1, se vai ser 1 copia apenas valor de R$42,00 se for mais de uma copia verificar as possibilidades de combinacao*/
           if ( ($quantidadelivro1<2) && ($quantidadelivro1!=0) ){
             $preco_total = 42.00;
+			$valor_final = $preco_total;
           }else{
           $combina_total = $quantidadelivro1;
           }
@@ -257,6 +258,7 @@ $nome = $_SESSION['nome'];
           /*verificacao livro2, se vai ser 1 copia apenas valor de R$42,00 se for mais de uma copia verificar as possibilidades de combinacao*/
           if( ($quantidadelivro2<2) && ($quantidadelivro2!=0) ){
             $preco_total = ($preco_total + 42.00);
+			$valor_final = $preco_total;
           }else{
           $combina_total = ($combina_total + $quantidadelivro2);
           }
@@ -264,6 +266,7 @@ $nome = $_SESSION['nome'];
           /*verificacao livro3, se vai ser 1 copia apenas valor de R$42,00 se for mais de uma copia verificar as possibilidades de combinacao*/
           if( ($quantidadelivro3<2) && ($quantidadelivro3!=0) ){
             $preco_total = ($preco_total + 42.00);
+			$valor_final = $preco_total;
           }else{
           $combina_total = ($combina_total + $quantidadelivro3);
           }
@@ -271,6 +274,7 @@ $nome = $_SESSION['nome'];
           /*verificacao livro4, se vai ser 1 copia apenas valor de R$42,00 se for mais de uma copia verificar as possibilidades de combinacao*/
           if( ($quantidadelivro4<2) && ($quantidadelivro4!=0) ){
             $preco_total = ($preco_total + 42.00);
+			$valor_final = $preco_total;
           }else{
           $combina_total = ($combina_total + $quantidadelivro4);
           }
@@ -278,6 +282,7 @@ $nome = $_SESSION['nome'];
           /*verificacao livro5, se vai ser 1 copia apenas valor de R$42,00 se for mais de uma copia verificar as possibilidades de combinacao*/
           if( ($quantidadelivro5<2) && ($quantidadelivro5!=0) ){
             $preco_total = ($preco_total + 42.00);
+			$valor_final = $preco_total;
           }else{
           $combina_total = ($combina_total + $quantidadelivro5);
           }
@@ -285,6 +290,7 @@ $nome = $_SESSION['nome'];
           /*verificacao livro6, se vai ser 1 copia apenas valor de R$42,00 se for mais de uma copia verificar as possibilidades de combinacao*/
           if( ($quantidadelivro6<2) && ($quantidadelivro6!=0) ){
             $preco_total = ($preco_total + 42.00);
+			$valor_final = $preco_total;
           }else{
           $combina_total = ($combina_total + $quantidadelivro6);
           }
@@ -292,6 +298,7 @@ $nome = $_SESSION['nome'];
           /*verificacao livro7, se vai ser 1 copia apenas valor de R$42,00 se for mais de uma copia verificar as possibilidades de combinacao*/
           if( ($quantidadelivro7<2) && ($quantidadelivro7!=0) ){
             $preco_total = ($preco_total + 42.00);
+			$valor_final = $preco_total;
           }else{
           $combina_total = ($combina_total + $quantidadelivro7);
           }
