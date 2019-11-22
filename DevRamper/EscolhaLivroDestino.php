@@ -40,13 +40,8 @@ $nome = $_SESSION['nome'];
       <li><a href="/DevRamper/LogOut.php">Sair</a></li>
     </ul>
   </li>
-  <!--
-  <li class="dropdown""> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Músicas<b class="caret"></b></a>
-    <ul class="dropdown-menu">
-      <li><a href="/TrabalhoFinal/CadastroMusica.php">Cadastrar Músicas</a></li>
-    </ul>
-  </li>
-  !-->
+
+  
   </div>
   <ul class="nav navbar-nav navbar-right">
   <li> <a class="brand">Seja Bem Vindo Usuário <?php echo "$nome"; ?></a> </li>
@@ -54,22 +49,6 @@ $nome = $_SESSION['nome'];
 </ul>
 </div>
 </div>
-
-<!--
-<audio controls
-  data-info-album-art="http://farm5.staticflickr.com/4050/4353986539_ec89b52698_d.jpg"
-  data-info-album-title="8874"
-  data-info-artist="Billy Murray"
-  data-info-title="Come, take a trip in my air-ship"
-  data-info-label="Edison Gold Moulded Record"
-  data-info-year="1905"
-  data-info-att="University of California, Santa Barbara Library."
-  data-info-att-link="http://cylinders.library.ucsb.edu/search.php?query=8874">
-  <source src="/bootstrap-player/media/cusb-cyl2985d.ogg" type="audio/ogg" />
-  <source src="/bootstrap-player/media/cusb-cyl2985d.mp3" type="audio/mpeg" />
-  <a href="/bootstrap-player/media/cusb-cyl2985d.mp3">cusb_cyl2985d</a>
-</audio>
-!-->
 
   
 
@@ -345,28 +324,8 @@ $nome = $_SESSION['nome'];
         echo "<br>";
 
 
-      /*
-                 // include("Usuario.php");
-                 // include("MySQL.php");
-                  
-                  // objeto que armazena os dados do usuario
-                  $usuario = new Usuario($nome,$email,$senha,$endereco);
-                  $nomeDB = "devramper"; //alterado
-                  $mysql = new MySQL();
-                  //$mysql->conectar("localhost","root",""); //antigo
-      			$link = $mysql->conectar("localhost","root",""); //adicionado $link
-                  //$mysql->criarBanco($nomeDB); // chama o método para criar o banco 
-                  //$mysql->criarTabelaUsuario();// chama o método para criar a tabela usuario
-                  //envia o objeto contendo as informacoes do usuario para ser cadastrado.
-                  //$mysql->insereDadosTabelaUsuario($nomeDB,$usuario,$link);
-      			$mysql->insereDadosTabelaCompras($nomeDB,$usuario,$link);
-      			echo("<br/>");
-      			echo("<br/>");
-      			echo("<br/>");
-      			echo("<br/>");
-      			echo("<br/>");
-             */
-      			?>
+      
+    ?>
  
 </div> 
 
