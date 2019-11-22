@@ -83,7 +83,7 @@ CREATE TABLE `usuario` (
 --
 
 INSERT INTO `usuario` (`usuarioId`, `nome`, `email`, `senha`, `endereco`) VALUES
-(2, 'Andre', 'andre@redevivo.com', '123456', 'Avenida Rio Branco 530');
+(2, 'Andre', 'andre_flores2009@hotmail.com', '123456', 'Avenida Rio Branco 530');
 
 --
 -- Indexes for dumped tables
