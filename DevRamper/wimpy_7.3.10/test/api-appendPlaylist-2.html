@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<title>API - appendPlaylist 2</title>
+<link href="_styles.css" rel="stylesheet" type="text/css">
+<script src="_prettify.js"></script>
+<script src="_test-stuff.js"></script>
+
+<!-- Wimpy Engine -->
+<script src="../wimpy.js"></script><script src="wimpy.js"></script>
+
+
+</head>
+<body onload="pageReady()">
+<div id="mainMenu"></div>
+<div id="pageWrapper" class="pageWrapper">
+
+
+
+
+<script>
+
+// A simple array containing URLs to mp3 files.
+var list = [
+"../song1.mp3",
+"../song2.mp3",
+"../song3.mp3"
+];
+
+// Start on #3 since 1 & 2 are already in the player.
+var current = 4;
+function doit2(){
+	
+	// Get a handle to player 2
+	var player = wimpy.getPlayer("myPlayerID");
+	
+	// Snag 2 items from our list above as a new array.
+	var chunk = list.slice(current, current+2);
+	
+	// Append the two items to the player.
+	player.appendPlaylist(chunk);
+	
+	// Increment +2 since we are slicing 2 items
+	current += 2;
+	
+	// Wrap the list if we reach end.
+	if(current > list.length - 2){
+		current = 0;
+	}
+}
+
+</script>
+
+	
+<!-- Player 2 instance -->
+<div id="myPlayerID" data-wimpyPlayer
+ data-sort="none" data-media="../song1.mp3|../song2.mp3" data-skin="../wimpy.skins/003.tsv"></div>
+
+<!-- A simple button to ping the "doit" function. -->
+<p>&nbsp;<p><p><input type="button" onclick="doit2()" value="Add 2 other songs" /></p><p>&nbsp;<p>
+
+<!-- Description -->
+<p>Append playlist with simple urls from an array.</p>
+
+
+
+
+</div> <!-- close pageWrapper -->
+</body>
+</html>
