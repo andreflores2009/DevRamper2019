@@ -52,15 +52,7 @@
 		
 		}
 		
-		public function criarTabelaMusica(){
-			   mysqli_select_db($this->nomeBanco);
-               $sql = "create table musica ( musicaId int(3) not null auto_increment primary key,
-                                             tituloMusica VARCHAR(100) not null,
-											 artistaMusica VARCHAR(100) not null,
-                                             musica VARCHAR(250) not null
-										    )";
-               mysqli_query($sql);
-		}
+		
 		
 		//public function consultarExistenciaUsuario($nomeBanco,$nome,$senha){ //antigo
 		public function consultarExistenciaUsuario($nomeBanco,$nome,$senha,$link){ 
@@ -126,19 +118,7 @@
                mysqli_query("delete from usuario where usuarioId='$usuarioId'") or die (mysqli_error());
 			    
         }	  
-		public function insereDadosTabelaMusica($nomeBanco, $dadosMusica){
-               mysqli_select_db($nomeBanco);
-			     // extrai as informacoes do objeto recebido
-			   $tituloMusica =$dadosMusica->retornaTituloMusica();
-  			   $artistaMusica = $dadosMusica->retornaArtistaMusica();
-  			   $musica=$dadosMusica->retornaMusica();
-			 
-  			   
-			   $sql = "insert into musica VALUES ('0','".$tituloMusica."','".$artistaMusica."','".$musica."')";
-               mysqli_query($sql)or die (mysqli_error());
-			   
-		       
-        }
+		
 		
 		
 		
