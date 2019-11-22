@@ -50,23 +50,6 @@ $nome = $_SESSION['nome'];
 </div>
 </div>
 
-<!--
-<audio controls
-	data-info-album-art="http://farm5.staticflickr.com/4050/4353986539_ec89b52698_d.jpg"
-	data-info-album-title="8874"
-	data-info-artist="Billy Murray"
-	data-info-title="Come, take a trip in my air-ship"
-	data-info-label="Edison Gold Moulded Record"
-	data-info-year="1905"
-	data-info-att="University of California, Santa Barbara Library."
-	data-info-att-link="http://cylinders.library.ucsb.edu/search.php?query=8874">
-	<source src="/bootstrap-player/media/cusb-cyl2985d.ogg" type="audio/ogg" />
-	<source src="/bootstrap-player/media/cusb-cyl2985d.mp3" type="audio/mpeg" />
-	<a href="/bootstrap-player/media/cusb-cyl2985d.mp3">cusb_cyl2985d</a>
-</audio>
-!-->
-
-  
 
   <div class="oi">
        <h4> Seja Bem-vindo a página dos Livros!! </h4>
@@ -106,31 +89,31 @@ $nome = $_SESSION['nome'];
 			  <div class="radiobutton_livros">				
 				<input type="checkbox" name="livro1" value="livro1"/> Livro1 
 					<span><b>  - Quantidade: </b></span> 
-					<input type="number" name="quantidade_livro1" min="0" max="4" value="0" />  Max(5)
+					<input type="number" name="quantidade_livro1" min="0" max="5" value="0" />  Max(5)
 				<br>
 				<input type="checkbox" name="livro2" value="livro2"/> Livro2 
 					<span><b>  - Quantidade: </b></span> 
-					<input type="number" name="quantidade_livro2" min="0" max="4" value="0" />  Max(5)
+					<input type="number" name="quantidade_livro2" min="0" max="5" value="0" />  Max(5)
 				<br>				
 				<input type="checkbox" name="livro3" value="livro3"/> Livro3 
 					<span><b>  - Quantidade: </b></span> 
-					<input type="number" name="quantidade_livro3" min="0" max="4" value="0"/>  Max(5)
+					<input type="number" name="quantidade_livro3" min="0" max="5" value="0"/>  Max(5)
 				<br>
 				<input type="checkbox" name="livro4" value="livro4"/> Livro4 
 					<span><b>  - Quantidade: </b></span> 
-					<input type="number" name="quantidade_livro4" min="0" max="4" value="0"/>  Max(5)
+					<input type="number" name="quantidade_livro4" min="0" max="5" value="0"/>  Max(5)
 				<br>
 				<input type="checkbox" name="livro5" value="livro5"/> Livro5 
 					<span><b>  - Quantidade: </b></span> 
-					<input type="number" name="quantidade_livro5" min="0" max="4" value="0"/>  Max(5)
+					<input type="number" name="quantidade_livro5" min="0" max="5" value="0"/>  Max(5)
 				<br>
 				<input type="checkbox" name="livro6" value="livro6"/> Livro6 
 					<span><b>  - Quantidade: </b></span> 
-					<input type="number" name="quantidade_livro6" min="0" max="4" value="0"/>  Max(5)
+					<input type="number" name="quantidade_livro6" min="0" max="5" value="0"/>  Max(5)
 				<br>
 				<input type="checkbox" name="livro7" value="livro7"/> Livro7 
 					<span><b>  - Quantidade: </b></span> 
-					<input type="number" name="quantidade_livro7" min="0" max="4" value="0"/>  Max(5)
+					<input type="number" name="quantidade_livro7" min="0" max="5" value="0"/>  Max(5)
 				<br>
 				<p>
                 <input type="submit" value="Enviar" />
